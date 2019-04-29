@@ -1,0 +1,265 @@
+@import 'config/**/*.scss';
+
+.workWithUs {
+    padding: 0 17%;
+}
+.workWithUs h3, .workWithUs p {
+	text-align: center;
+	color: #bbb;
+}
+.workWithUs .row .col-sm-4, .workWithUs .row .col-sm-12 {
+    margin-bottom: 2%;
+}
+.workForm {
+    background-image: url(../image/footerBg.jpg);
+    background-size: cover;
+    padding: 6% 0%;
+}
+.bg-dark {
+	    background-color: #222;
+}
+.social ul li {
+    display: inline-block;
+    color: #fff;
+    margin: 10px 4px;
+}
+.social ul li a {
+	color: #fff;
+}
+.social ul li p {
+	margin: 0;
+}
+.Copyright {
+	    margin: 11px 0;
+    color: #fff;
+}
+button.submitBtn {
+    background-color: #f03b00;
+    border: none;
+    padding: 7px 24px;
+    border-radius: 25px;
+    color:#fff;
+}
+
+ul {
+	padding: 0;
+}
+.navbar-toggle .icon-bar {
+    background: #ccc;
+}
+/*-----------banner css--------------*/
+.navbar {
+    border-radius: 0px;
+}
+.navbar-inverse  .logoText {
+    color: #ffffff;
+}
+.logoText span {
+    color: #f03b00;
+}
+.getInTouch {
+	background-color: #f03b00;
+    padding: 4px 14px  !important;
+    margin: 10px 0;
+    border-radius: 19px;
+}
+.navbar .mainMenu li a {
+	color: #fff;
+}
+.navbar .mainMenu li a:hover {
+	color: #008000;
+}
+.navbar-inverse .mainMenu>li>a:hover {
+    background-color: #f03b00;
+}
+.mb0 {
+	margin: 0;
+}
+section.bannerArea {
+    background-image: url(../image/bannerBG.jpg);
+    background-size: cover;
+    padding: 6% 0 15%;
+}
+.bannerContent ul {
+	padding: 0;
+}
+.bannerContent ul li {
+    display: inline-block;
+    margin: 10px 25px;
+    border: 1px solid #3c3c3c;
+    padding: 15px;
+    color: #bbb;
+}
+
+.banner-title {
+	width: 50%;
+	color: #fff;
+	font-size: 30px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 0;
+}
+
+.flex-container > div {
+  margin: 10px 25px;
+  padding: 15px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;  
+}
+
+.flex-container > div.serviceBox {
+	padding: 25px 23px 0px 23px;
+	border: 1px solid rgba(204, 204, 204,0.5 )
+}
+
+.flex-container p {
+	color: #fff;
+	font-size: 1.25rem;
+}
+
+.flex-container h2 {
+    color: #fff;
+    margin: 3% 0;
+    padding: 0 35%;
+}
+
+/*-------------about us css--------------*/
+.aboutContent, .aboutImage {
+    padding: 6% 9%;
+}
+
+@media only screen and (max-width: 767px) {
+	.flex-container p {display: inline; padding-left: 30px;}
+	.flex-container img {display: inline}
+}
+
+@media only screen and (max-width: 1024px) {
+	.bannerContent h2 {
+    padding: 0 0%;
+}
+}
+@media only screen and (max-width: 480px) {
+	.mobile {
+    float: none !important;
+    text-align: center;
+}
+	.navbar .mainMenu li a {
+		color: #fff;
+		width: 150px;
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+
+// Slider Css
+
+.shadow-effect {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #ECECEC;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+}
+.shadow-effect:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    height: 26px;
+    width: 26px;
+    transform: rotate(46deg);
+    bottom: -13px;
+    left: 48px;
+}
+#customers-testimonials .shadow-effect p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+}
+.testimonial-name {
+    margin: -17px auto 0;
+    display: table;
+    width: auto;
+    background: #3190E7;
+    padding: 9px 35px;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+}
+#customers-testimonials .item {
+    text-align: center;
+    padding: 50px;
+		margin-bottom:80px;
+    opacity: .2;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+    transition: all 0.3s ease-in-out;
+}
+#customers-testimonials .owl-item.active.center .item {
+    opacity: 1;
+    -webkit-transform: scale3d(1.0, 1.0, 1);
+    transform: scale3d(1.0, 1.0, 1);
+}
+	.owl-carousel .owl-item img.img-circle {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    max-width: 60px;
+    float: left;
+    margin-right: 27px;
+}
+
+.clientName {
+    margin-top: 30px;
+    text-align: left;
+    padding: 0 19px;
+}
+.position {
+	display: block;
+}
+#customers-testimonials.owl-carousel .owl-dots{
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+section.testimonials {
+    background: #eee;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot{
+	display: inline-block;
+}
+#customers-testimonials.owl-carousel .owl-dots .owl-dot span {
+		background: #3190E7;
+		display: inline-block;
+		height: 20px;
+		margin: 0 2px 5px;
+		-webkit-transform: translate3d(0px, -50%, 0px) scale(0.3);
+						transform: translate3d(0px, -50%, 0px) scale(0.3);
+		-webkit-transform-origin: 50% 50% 0;
+						transform-origin: 50% 50% 0;
+		transition: all 250ms ease-out 0s;
+		width: 20px;
+}
+
+#customers-testimonials.owl-carousel .owl-dots .owl-dot.active span,
+#customers-testimonials.owl-carousel .owl-dots .owl-dot:hover span {
+		    background: #3190E7;
+		    -webkit-transform: translate3d(0px, -50%, 0px) scale(0.7);
+		            transform: translate3d(0px, -50%, 0px) scale(0.7);
+		}
+
+.quoteImg {width: 25px!important}
+.testimonialArea{text-align: left}
+
+.footer-content{display: inline-block; color: #fff}
+.social-inline{display: inline-block; color: #fff; margin: 10px 4px}

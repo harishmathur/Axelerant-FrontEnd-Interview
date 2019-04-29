@@ -1,0 +1,17 @@
+<section class="testimonials">
+	<div class="container">
+
+      <div class="row">
+      	<h2 class="text-center">Testimonial</h2>
+        <div class="col-sm-12">
+          <div id="customers-testimonials" class="owl-carousel">
+
+					{% for i in 1..5 %}
+						{% include './items/testimonial.twig' %}
+    			{% endfor %}
+
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

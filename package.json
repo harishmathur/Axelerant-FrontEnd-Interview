@@ -1,0 +1,45 @@
+{
+  "name": "axelerant-frontend-interview-harimath",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Haresh Mathur (harimath@gmail.com)",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.js": "eslint",
+    "src/**/*.scss": "stylelint",
+    "*.{js,scss}": [
+      "prettier --write --single-quote --print-width 80",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "breakpoint-sass": "^2.7.1",
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "^1.0.9",
+    "gulp-stylelint": "^7.0.0",
+    "gulp-twig": "^1.2.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.1.3",
+    "normalize.scss": "^0.1.0",
+    "prettier": "^1.13.4",
+    "sass-toolkit": "^2.10.2",
+    "stylelint": "^9.2.1",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-scss": "^3.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
